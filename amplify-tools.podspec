@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   
     s.ios.deployment_target = '9.0'
     s.swift_versions = '4.0'
-    s.source_files = 'packages/*'
+    s.source_files = 'AWSCore/*'
     
     s.script_phase = {
       :name => 'Amplify',
